@@ -12,7 +12,7 @@ echo -e "${BLUE}Starting Django Project Setup...${NC}"
 
 # Create and activate virtual environment
 echo -e "${GREEN}Creating virtual environment...${NC}"
-python3 -m venv venv
+python3 -m venv .venv
 source venv/bin/activate
 
 # Install requirements
